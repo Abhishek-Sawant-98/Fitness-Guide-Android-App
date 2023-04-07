@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 33
 
 
     defaultConfig {
         applicationId "com.abhisheksawant.FitnessGuide"
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 8
-        versionName "1.0.8"
+        targetSdkVersion 33
+        versionCode 10
+        versionName "1.0.10"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

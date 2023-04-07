@@ -28,7 +28,7 @@ public class gym9_iii extends AppCompatActivity {
         b9iiib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(gym9_iii.this,biceps.class);
+                Intent intent = new Intent(gym9_iii.this, Biceps.class);
                 startActivity(intent);
             }
         });
@@ -92,7 +92,7 @@ public class gym9_iii extends AppCompatActivity {
         b9iiij.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(gym9_iii.this,calves.class);
+                Intent intent = new Intent(gym9_iii.this, Calves.class);
                 startActivity(intent);
             }
         });

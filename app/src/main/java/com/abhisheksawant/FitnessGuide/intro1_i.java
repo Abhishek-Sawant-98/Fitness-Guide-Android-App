@@ -28,7 +28,7 @@ public class intro1_i extends AppCompatActivity {
         b1ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(intro1_i.this,physicalfitness1ib.class);
+                Intent intent = new Intent(intro1_i.this, PhysicalFitness1ib.class);
                 startActivity(intent);
             }
         });

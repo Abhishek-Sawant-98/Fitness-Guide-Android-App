@@ -16,7 +16,7 @@ import com.abhisheksawant.FitnessGuide.cali_adv16;
 import com.abhisheksawant.FitnessGuide.cali_beg13;
 import com.abhisheksawant.FitnessGuide.cali_inter15;
 import com.abhisheksawant.FitnessGuide.cali_wisdom;
-import com.abhisheksawant.FitnessGuide.cardio;
+import com.abhisheksawant.FitnessGuide.Cardio;
 import com.abhisheksawant.FitnessGuide.etiquettes11;
 import com.abhisheksawant.FitnessGuide.freestyle17;
 import com.abhisheksawant.FitnessGuide.goalsetting;
@@ -148,7 +148,7 @@ public class HomeFragment extends Fragment {
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), cardio.class);
+                Intent intent = new Intent(getActivity(), Cardio.class);
                 startActivity(intent);
             }
         });

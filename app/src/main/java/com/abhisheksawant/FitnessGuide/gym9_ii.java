@@ -52,7 +52,7 @@ public class gym9_ii extends AppCompatActivity {
         b9iie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent  = new Intent(gym9_ii.this,benchpress.class);
+                Intent intent  = new Intent(gym9_ii.this, BenchPress.class);
                 startActivity(intent);
             }
         });
@@ -60,7 +60,7 @@ public class gym9_ii extends AppCompatActivity {
         b9iif.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent  = new Intent(gym9_ii.this,ohp.class);
+                Intent intent  = new Intent(gym9_ii.this, OHP.class);
                 startActivity(intent);
             }
         });
@@ -68,7 +68,7 @@ public class gym9_ii extends AppCompatActivity {
         b9iig.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent  = new Intent(gym9_ii.this,barbellrows.class);
+                Intent intent  = new Intent(gym9_ii.this, BarbellRows.class);
                 startActivity(intent);
             }
         });

@@ -20,7 +20,7 @@ public class cali_beg13_vi extends AppCompatActivity {
         b13via.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(cali_beg13_vi.this,airsquats.class);
+                Intent intent = new Intent(cali_beg13_vi.this, AirSquats.class);
                 startActivity(intent);
             }
         });

@@ -422,7 +422,7 @@
             android:parentActivityName=".cali_beg13_vi"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".airsquats"
+            android:name=".AirSquats"
             android:label="Air Squats"
             android:parentActivityName=".cali_beg13_vi"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -477,7 +477,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".calves"
+            android:name=".Calves"
             android:label="Calves"
             android:parentActivityName=".gym9_iii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -517,7 +517,7 @@
             android:parentActivityName=".gym9_iii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".biceps"
+            android:name=".Biceps"
             android:label="Biceps"
             android:parentActivityName=".gym9_iii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -532,17 +532,17 @@
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".barbellrows"
+            android:name=".BarbellRows"
             android:label="Rows"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ohp"
+            android:name=".OHP"
             android:label="Overhead Press (OHP)"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".benchpress"
+            android:name=".BenchPress"
             android:label="Bench Press"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -862,7 +862,7 @@
             android:parentActivityName=".intro1_i"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".physicalfitness1ib"
+            android:name=".PhysicalFitness1ib"
             android:label="Physical Fitness"
             android:parentActivityName=".intro1_i"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -972,7 +972,8 @@
         <activity
             android:name=".MainActivity"
             android:label="FITNESS GUIDE"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

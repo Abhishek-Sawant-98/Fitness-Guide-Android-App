@@ -7,19 +7,18 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class physicalfitness1ib extends AppCompatActivity {
+public class Calves extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_physicalfitness1ib);
+        setContentView(R.layout.activity_calves);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView t1 = (TextView) findViewById(R.id.physical_fitness1ib);
-        t1.setMovementMethod(LinkMovementMethod.getInstance());
-
+        TextView t2 = (TextView)findViewById(R.id.calves2);
+        t2.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }

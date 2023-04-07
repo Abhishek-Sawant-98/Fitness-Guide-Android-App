@@ -7,18 +7,18 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class airsquats extends AppCompatActivity {
+public class Cardio extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_airsquats);
+        setContentView(R.layout.activity_cardio);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView t2 = (TextView) findViewById(R.id.air_squats2);
-        t2.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView t1 = (TextView) findViewById(R.id.cardio);
+        t1.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
